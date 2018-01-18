@@ -8,7 +8,8 @@ pgs 1-8
   * value function is total amount of reward agent can expect to accumulate over future (long-term gain). Example: P(win|state)
   * model allows inferences to be made about environment, which allows for planning
   
-* evolitionary methods not well-suited to RL because they don't leverage individual behavioral interactions
+* evolitionary methods not well-suited to RL because they don't leverage individual behavioral interactions (if the player
+wins or loses, then all of its behavior in the game is given credit for that win or loss)
 
 * temporal-difference learning method
   1. assign values V(s) to all states s
