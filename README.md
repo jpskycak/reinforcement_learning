@@ -19,4 +19,5 @@ wins or loses, then all of its behavior in the game is given credit for that win
 ### [PROJECT 1](https://github.com/jpskycak/reinforcement_learning/blob/master/project1_tictactoe_experiments.ipynb): program this for tic-tac-toe
 
 * improvement: instead of \alpha, use \alpha * (1-P(win)). This way, when win probability is low, agent learns with high rate; when win probability is high, agent learns with low rate -- i.e. dynamic slowing/speeding of learning rate
+* improvement: use recombining state tree to reduce dimensionality and yield faster learning (vs non-recombining state tree).
 * improvement (not implemented): initialize values better so that training occurs more quickly 
